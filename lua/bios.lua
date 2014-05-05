@@ -400,19 +400,6 @@ if turtle then
 	end
 end
 
-function Test()
-while true do
-	local sEvent, param = coroutine.yield()
-	if sEvent == "char" then
-		print("Char: "..param)
-	elseif sEvent == "key" then
-		print("Key: "..param)
-	else
-		print(sEvent..": "..param)
-	end
-end
-end
-
 local ok, err = pcall(function()
 	parallel.waitForAny(
 		function()
