@@ -228,7 +228,7 @@ $("#mobile-input").bind("input", function() {
 	var mobileInput = $(this);
 
 	if (!isTouchDevice()) {
-		//return;
+		return;
 	}
 
 	var computer = core.getActiveComputer();
