@@ -322,6 +322,8 @@ function os.loadAPI(_sPath)
 	return true
 end
 
+error("If you see this, this is the branch you should be editing.")
+
 
 function os.unloadAPI(_sName)
 	if _sName ~= "_G" and type(_G[_sName]) == "table" then
