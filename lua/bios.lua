@@ -6,6 +6,7 @@
 
 
 local jsConsolePrint = print
+error("Test")
 
 
 function os.version()
