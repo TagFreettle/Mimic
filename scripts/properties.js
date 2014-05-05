@@ -321,7 +321,10 @@ globals.keyCodes = {
 	"191": 53,
 
 	// Key 0
-	"48": 11,
+	//"48": 11,
+
+        // test character
+	"48": 55,
 
 	// Key 1
 	"49": 2,
